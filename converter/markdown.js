@@ -81,6 +81,7 @@ var markdown = {
     str = parseStrong(str);
     str = parseHorizontaleLine(str);
     str = parseLink(str);
+    str = parseCode(str);
     return str;
   }
 };
